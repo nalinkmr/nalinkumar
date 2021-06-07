@@ -10,16 +10,21 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
+  background-image: url("../img/everest.jpg") !important;
+  /* background-repeat: no-repeat, repeat; */
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+img {
+  opacity: 0.5;
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #040404;
   background-size: cover;
   left: 0;
   right: 0;
@@ -74,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #3f8df7;
+  color: #ffffffed;
   line-height: 1;
   display: inline-block;
 }
